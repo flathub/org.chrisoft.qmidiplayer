@@ -1,22 +1,26 @@
 diff --git a/qmidiplayer-desktop/org.chrisoft.qmidiplayer.appdata.xml b/qmidiplayer-desktop/org.chrisoft.qmidiplayer.appdata.xml
-index 0d22cec..ca9f500 100644
+index 995955a..c83687e 100644
 --- a/qmidiplayer-desktop/org.chrisoft.qmidiplayer.appdata.xml
 +++ b/qmidiplayer-desktop/org.chrisoft.qmidiplayer.appdata.xml
-@@ -3,6 +3,7 @@
-  <id>org.chrisoft.qmidiplayer.desktop</id>
-  <metadata_license>FSFAP</metadata_license>
-  <project_license>GPL-3.0+</project_license>
-+ <developer_name>Chris Xiong</developer_name>
-  <name>QMidiPlayer</name>
-  <summary>A cross-platform midi file player based on libfluidsynth and Qt.</summary>
-  <description>
-@@ -22,4 +23,9 @@
-   <kudo>HiDpiIcon</kudo>
+@@ -24,6 +24,8 @@
    <kudo>ModernToolkit</kudo>
   </kudos>
-+ <releases>
-+  <release type="stable" version="0.8.8.1" date="2024-02-04T06:34:17Z">
+  <releases>
++  <release type="stable" version="0.8.9" date="2025-12-11T08:57:20Z">
 +  </release>
-+ </releases>
-+ <content_rating type="oars-1.1"/>
- </component>
+   <release type="stable" version="0.8.8.1" date="2024-02-04T06:34:17Z">
+   </release>
+  </releases>
+diff --git a/qmidiplayer-desktop/org.chrisoft.qmidiplayer.desktop b/qmidiplayer-desktop/org.chrisoft.qmidiplayer.desktop
+index 737c1ce..52d1c1c 100644
+--- a/qmidiplayer-desktop/org.chrisoft.qmidiplayer.desktop
++++ b/qmidiplayer-desktop/org.chrisoft.qmidiplayer.desktop
+@@ -5,7 +5,7 @@ Name=QMidiPlayer
+ Version=1.5
+ GenericName=MIDI Player
+ Comment=QMidiPlayer is a midi file player based on Fluidsynth and Qt.
+-Exec=/usr/bin/qmidiplayer
++Exec=qmidiplayer
+ Icon=org.chrisoft.qmidiplayer
+ Keywords=audio;sound;
+ Categories=Audio;AudioVideo;Midi;X-Alsa;X-Jack;Qt;
