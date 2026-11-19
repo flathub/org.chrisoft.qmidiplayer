@@ -11,16 +11,3 @@ index 995955a..c83687e 100644
    <release type="stable" version="0.8.8.1" date="2024-02-04T06:34:17Z">
    </release>
   </releases>
-diff --git a/qmidiplayer-desktop/org.chrisoft.qmidiplayer.desktop b/qmidiplayer-desktop/org.chrisoft.qmidiplayer.desktop
-index 737c1ce..52d1c1c 100644
---- a/qmidiplayer-desktop/org.chrisoft.qmidiplayer.desktop
-+++ b/qmidiplayer-desktop/org.chrisoft.qmidiplayer.desktop
-@@ -5,7 +5,7 @@ Name=QMidiPlayer
- Version=1.5
- GenericName=MIDI Player
- Comment=QMidiPlayer is a midi file player based on Fluidsynth and Qt.
--Exec=/usr/bin/qmidiplayer
-+Exec=qmidiplayer
- Icon=org.chrisoft.qmidiplayer
- Keywords=audio;sound;
- Categories=Audio;AudioVideo;Midi;X-Alsa;X-Jack;Qt;
